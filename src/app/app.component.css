@@ -11,29 +11,23 @@
   flex-wrap: wrap;
 }
 
-.imagem{
-  flex-wrap: wrap;
-  height: auto;
-  width: auto;
-  min-height: 116px;
-  max-width: 580px;
-}
-
 .texto-1{
-  font-weight: bold;
-  font-family: "Open Sans", Sans-serif, serif, bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
   color: white;
-  font-size: 43pt;
+  font-size: 49pt;
   width: 100%;
   margin-bottom: 0%;
   text-align: center;
 }
 
 .texto-2{
-  font-family: "Open Sans", Sans-serif, serif;
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
   color: white;
   margin-top: 0%;
-  font-size: 23pt;
+  font-size: 43pt;
 }
 
 .video{
@@ -49,16 +43,27 @@
   width: 81%;
   text-decoration: none;
   background-color: #008938;
-  margin: 30px;
+  margin: 20px;
+  margin-bottom: 5px;
 }
 
 .texto-baixo{
-  font-family: "Roboto", Sans-serif, serif;
+  font-family: "Myriad Pro", Sans-serif, serif;
   color: #f2b700;
-  font-weight: bold;
-  font-size: 200%;
+  font-size: 180%;
+  margin-bottom: 10px;
+}
+
+.texto-baixo2{
+  font-family: "Open Sans", Sans-serif, serif;
+  color: #f2b700;
+  font-size: 148%;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .logo{
-  margin: 5%;
+  margin: 1%;
 }
